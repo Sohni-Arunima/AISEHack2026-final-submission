@@ -1,0 +1,26 @@
+# Appendix: Failed Strategies
+
+The following approaches were tested but did not improve performance:
+
+1. Lower Threshold (< 0.40)
+- Increased false positives
+- Reduced leaderboard score
+
+2. Aggressive Water Suppression
+- Removed true flood pixels
+- Decreased Flood IoU
+
+3. Morphological Operations (Dilation/Blur)
+- Distorted segmentation boundaries
+- Reduced prediction quality
+
+4. Test-Time Augmentation (Flip Averaging)
+- Introduced noise in predictions
+- No consistent improvement
+
+5. Over-training / Additional Epochs
+- Caused overfitting
+- No improvement in validation performance
+
+Conclusion:
+The final model uses a balanced threshold (0.40) with controlled water suppression, which provided the best score (0.2000).

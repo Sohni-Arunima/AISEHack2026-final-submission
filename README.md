@@ -68,11 +68,11 @@ The solution leverages deep learning to improve flood detection accuracy for rea
 
 📦 Model Checkpoint
 
-👉 ((https://www.kaggle.com/models/msohniarunima/unet-best-model))
+👉 ((https://www.kaggle.com/models/msohniarunima/unet-best-model-anrf/PyTorch/unet-best-model-v1))
 
 📄 Report (Executive Summary)
 
-👉 (Paste your Google Docs / PDF link here)
+👉 https://drive.google.com/file/d/1aU3x4jU_M9PROqVMbw1s1Z9MTYYgIQ2U/view?usp=sharing
 
 
 📁 Repository Structure

@@ -1,0 +1,10 @@
+numpy
+pandas
+torch
+torchvision
+rasterio
+matplotlib
+albumentations
+timm
+segmentation-models-pytorch
+opencv-python
